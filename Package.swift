@@ -31,11 +31,11 @@ let package = Package(
         // 🚍 High-performance trie-node router.
         .package(url: "https://github.com/vapor/routing-kit.git", from: "4.0.0"),
         // LibP2P Core
-        .package(url: "https://github.com/swift-libp2p/swift-libp2p-core.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/timechain-academy/swift-libp2p-core.git", .upToNextMajor(from: "0.0.1")),
         // Multiaddr
-        .package(url: "https://github.com/swift-libp2p/swift-multiaddr.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/timechain-academy/swift-multiaddr.git", .upToNextMajor(from: "0.0.1")),
         // LibP2P Peer Identities
-        .package(url: "https://github.com/swift-libp2p/swift-peer-id.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/timechain-academy/swift-peer-id.git", .upToNextMajor(from: "0.0.1")),
         // Sugary extensions for the SwiftNIO library
         .package(url: "https://github.com/vapor/async-kit.git", .exact("1.11.1")),
         // Swift Protobuf
