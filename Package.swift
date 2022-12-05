@@ -21,7 +21,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         // Swift NIO for all things networking
         .package(url: "https://github.com/timechain-academy/swift-nio.git", .branch("b0effbcfd9c92246df01e2aed3f7e3c23f14aae4")),
-        .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.0.0"),
+        .package(url: "https://github.com/timechain-academy/swift-nio-extras.git", .branch("c67aa046e54e600d23af0cfdfd2cf12666622126")),
         // 💻 APIs for creating interactive CLI tools.
         .package(url: "https://github.com/vapor/console-kit.git", from: "4.0.0"),
         // Logging
